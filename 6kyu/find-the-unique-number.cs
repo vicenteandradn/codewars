@@ -20,7 +20,7 @@ public class Kata
     
     numberResult.Sort();
     
-    return (numberResult[0] < numberResult[1]) ?numberResult[0] : numberResult[numberResult.Count - 1] ;
+    return (numberResult[0] < numberResult[1]) ? numberResult[0] : numberResult[numberResult.Count - 1] ;
     
   }
 }
